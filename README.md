@@ -7,7 +7,7 @@ Installation:
 pip install ems-simple-logger-config
 ```
 
-On app level: Initialize logger with default values:
+On app level: Initialize logger with default values to get a common console output:
 ```
 import logger
 
@@ -15,7 +15,7 @@ log = logger.setup_logger()
 log.info('Some text')
 ```
 
-On app level: Alternatively initialize logger with some configuration
+On app level: Alternatively initialize logger with some configuration. If file_name is added a log file will be created.
 ```
 import logger
 
